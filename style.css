@@ -115,7 +115,6 @@ header{
     color: var(--primary-color);
     background: var(--secondary-color);
 }
-.navbar :where(#menu-cose-button,#menu-open-button){
 .navbar :where(#menu-close-button, #menu-open-button){
     display: none;
 }
@@ -384,7 +383,6 @@ header{
     .navbar .nav-menu {
         display: block;
         position: fixed;
-        left: 0;
         left: -300px;
         top: 0;
         width: 300px;
