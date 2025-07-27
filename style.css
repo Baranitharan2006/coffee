@@ -116,6 +116,7 @@ header{
     background: var(--secondary-color);
 }
 .navbar :where(#menu-cose-button,#menu-open-button){
+.navbar :where(#menu-close-button, #menu-open-button){
     display: none;
 }
 /*Hero section styling*/
@@ -384,6 +385,7 @@ header{
         display: block;
         position: fixed;
         left: 0;
+        left: -300px;
         top: 0;
         width: 300px;
         height: 100%;
@@ -392,6 +394,7 @@ header{
         align-items: center;
         padding: 100px;
         background: var(--white-color);
+        transition: left 0.2s ease;
     }
     
     body.show-mobile-menu .navbar .nav-menu{
